@@ -1,7 +1,7 @@
 Stopwords Filter
 ================
 
-[![Build Status](https://travis-ci.org/brenes/stopwords-filter.svg?branch=master)](https://travis-ci.org/brenes/stopwords-filter)
+[![Build Status](https://travis-ci.org/brenes/.svg?branch=master)](https://travis-ci.org/brenes/)
 
 This project is a very simple and naive implementation of a stopwords filter that remove a list of banned words (stopwords) from a sentence.
 
@@ -13,14 +13,14 @@ Quick guide
 just type
 
 ```
-gem install stopwords-filter
+gem install 
 ```
 
 or
 
 ```
 # Don't forget the 'require:'
-gem 'stopwords-filter', require: 'stopwords'
+gem '', require: 'stopwords'
 ```
 
 in your Gemfile.

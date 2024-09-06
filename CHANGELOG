@@ -1,3 +1,36 @@
+1.0.0:
+  * Updated language files to use ManticoreSearch stopwords
+  * Added support for the following languages:
+    * Afrikaans (af)
+    * Arabic (ar)
+    * Bengali (bn)
+    * Breton (br)
+    * Catalán (ca)
+    * Chinese (zh)
+    * Czech (cs)
+    * Danish (da)
+    * German (de)
+    * Greek (el)
+    * English (en)
+    * Spanish (es)
+    * Finnish (fi)
+    * French (fr)
+    * Hebrew (he)
+    * Hungarian (hu)
+    * Indonesian (id)
+    * Italian (it)
+    * Korean (ko)
+    * Dutch (nl)
+    * Polish (pl)
+    * Portuguese (pt)
+    * Romanian (ro)
+    * Russian (ru)
+    * Swedish (sv)
+    * Thai (th)
+    * Turkish (tr)
+    * Vietnamese (vi)
+  * Tested the gem with Ruby 3.2 to ensure compatibility
+
 0.7.0:
   * Fixed Wordiseve class [@hmaack] [#19]
   * Added suport for Chinese (zh) [@bettysteger] [#20]
@@ -32,7 +65,7 @@
   * Added info when no locale is found on snowball filter [@nerde] [#10]
 0.3.0:
  * Added custom words list to snowball filter [@sbeckeriv]
- * Fixed problem about initialization: https://github.com/brenes/stopwords-filter/issues/3 [@zackxu1]
+ * Fixed problem about initialization: https://github.com/brenes//issues/3 [@zackxu1]
 0.2.0:
  * Added stopword? method [@s2gatev]
  * Added Sieve class [@s2gatev]
