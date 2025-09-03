@@ -1,3 +1,6 @@
+1.0.1:
+  * Fixed file inclusion logic in gemspec for better maintainability
+
 1.0.0:
   * Updated language files to use ManticoreSearch stopwords
   * Added support for the following languages:
