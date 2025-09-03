@@ -17,10 +17,7 @@ Gem::Specification.new do |s|
     'LICENSE.txt',
     'README.md'
   ]
-  locale_files = []
-  Dir.glob('lib/stopwords/snowball/locales/*') do |locale_file|
-    locale_files << locale_file
-  end
+  locale_files = Dir.glob('lib/stopwords/snowball/locales/*')
   s.files = [
     'CHANGELOG',
     'Gemfile',
